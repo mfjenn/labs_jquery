@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>
+      Yamba
+    </title>
+    <link href="yamba.css" type="text/css" rel="stylesheet">
+  </head>
+  
+  <body id="public">
+    <div id="wrap">
+      
+      <!-- Header -->
+      <div id="header">
+        <img src="images/logo.png" alt="Yamba" class="logo">
+        <h1>
+          Welcome to Yamba
+        </h1>
+        <p>
+          Welcome to Yamba: yet another micro-blogging app
+        </p>
+      </div>
+      
+      <!-- Status List -->
+      <div id="content">
+        <input type="button" value="Hide" id="toggleButton" style="float:right;">
+        
+        <div id="statusUpdate">
+          <h2>
+            What's happening?
+          </h2>
+          <textarea id="newStatus" type="text"></textarea>
+          <div id="tweetCounter">
+            <span id="counter">140</span>
+            <input id="tweetButton" type="button" value="Tweet" />
+          </div>
+        </div>
+        
+        <div id="timeline">
+          <h2>
+            Timeline
+          </h2>
+          <ol id="statuses">
+            <!-- timeline goes here -->
+            
+            
+          </ol>
+          <input type="button" value="Go to top" id="top" style="float:right;">
+        </div><!-- publicTimeline -->
+      </div><!-- content -->
+      <div id="sidemenu">
+        <h2>Menu</h2>
+        <!-- Side menu -->
+        <ul class="menu_ul1">
+          <li class="menu_li1"><a href="">Lists</a></li>
+          <ul class="menu_ul2">
+            <li class="menu_li2"><a href="">@student/technologies</a></li>
+            <li class="menu_li2"><a href="">@student/music</a></li>
+            <li class="menu_li2"><a href="">@student/sport</a></li>
+            <li class="menu_li2"><a href="">@student/news</a></li>
+            <li class="menu_li2"><a href="">@student/work</a></li>
+          </ul>
+          <li class="menu_li1"><a href="">Retweets</a></li>
+          <ul class="menu_ul2">
+            <li class="menu_li2"><a href="">By other</a></li>
+            <li class="menu_li2"><a href="">By you</a></li>
+            <li class="menu_li2"><a href="">My tweets, retweeted</a></li>
+          </ul>
+          <li class="menu_li1"><a href="">Relationships</a></li>
+          <ul class="menu_ul2">
+            <li class="menu_li2"><a href="">Requests</a></li>
+            <li class="menu_li2"><a href="">Followers</a></li>
+            <li class="menu_li2"><a href="">Following</a></li>
+          </ul>
+        </ul>
+        <h2>Trash</h2>
+        <div id="trash">
+          <p>Place here tweets you want to remove</p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div id="footer">
+        <span>Yamba is a micro blogging service brought to you by Marakana.</span>
+      </div>
+      
+    </div>
+    
+    <script src="libs/jquery-1.4.4.js"></script>
+    <script src="ajax.js"></script>
+  </body>
+</html>

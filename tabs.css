@@ -1,0 +1,41 @@
+* {
+    margin: 3;
+    padding: 3;
+}
+
+body {
+	color: #000000;
+  font-family: sans-serif;
+  font-size: 1em;
+   background-color: #CCCCCC;
+  
+  
+}
+
+#wrap {
+  padding: 10px;
+	margin: 0 auto;
+	max-width: 900px;
+	min-width: 500px;
+	overflow: hidden;
+	width: 66%;
+}
+
+#header {
+}
+
+#content {
+	background-color: #FFFFFF;
+	border-color: transparent;
+	-moz-box-shadow: 5px 7px 7px rgba(194, 194, 194, 0.3);
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-width: 0px;
+	float: left;
+	min-height: 300px;
+	padding: 2%;
+	width: 66%;
+}
+
+
+

@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>
+      Yamba
+    </title>
+    <link href="yamba.css" type="text/css" rel="stylesheet">
+  </head>
+  
+  <body id="public">
+    <div id="wrap">
+      
+      <!-- Header -->
+      <div id="header">
+        <img src="images/logo.png" alt="Yamba" class="logo">
+        <h1>
+          Welcome to Yamba
+        </h1>
+        <p>
+          Welcome to Yamba: yet another micro-blogging app
+        </p>
+      </div>
+      
+      <!-- Status List -->
+      <div id="content">
+        <input type="button" value="Hide" id="toggleButton" style="float:right;">
+        
+        <div id="statusUpdate">
+          <h2>
+            What's happening?
+          </h2>
+          <textarea id="newStatus" type="text"></textarea>
+          <input id="tweetButton" type="button" value="Tweet" />
+        </div>
+        
+        <div id="timeline">
+          <h2>
+            Timeline
+          </h2>
+          <ol id="statuses">
+          
+            <li class="status">
+              <img class="icon delete" src="images/icon_delete.png" alt="delete" />
+              <div class="data">
+                <span class="user"><a href="#" class="url">
+                  <img width="48" height="48" src="images/slashdot.png" alt="" class="photo">
+                  <span class="nickname">Slashdot</span></a></span>
+                  <span class="text">Happy Pi Day
+                    <a href="http://bit.ly/eU3ccR" class="url">http://bit.ly/eU3ccR</a>
+                  </span>
+              </div>
+              <div class="meta">
+                <span class="timestamp">14 Mar</span>
+                <span class="source">from web</span>
+              </div>
+            </li>
+          
+            <li class="status">
+              <img class="icon delete" src="images/icon_delete.png" alt="delete" />
+              <div class="data">
+                <span class="user"><a href="#" class="url">
+                  <img width="48" height="48" src="images/marakana.png" alt="" class="photo">
+                  <span class="nickname">Marakana</span></a></span>
+                  <span class="text">Videos/slides/code from Marko's Android Internals 
+                                      presentation at #AnDevCon are now posted a
+                    <a href="http://mrkn.co/f/271" class="url">http://mrkn.co/f/271</a>
+                  </span>
+              </div>
+              <div class="meta">
+                <span class="timestamp">10 Mar</span>
+                <span class="source">from web</span>
+              </div>
+            </li>
+          
+            <li class="status">
+              <img class="icon delete" src="images/icon_delete.png" alt="delete" />
+              <div class="data">
+                <span class="user"><a href="#" class="url">
+                  <img width="48" height="48" src="images/slashdot.png" alt="" class="photo">
+                  <span class="nickname">AndroidDev</span></a></span>
+                  <span class="text">Unofficial Android dev meetup at SXSW:
+                    <a href="http://goo.gl/DeSyV" class="url">http://goo.gl/DeSyV</a>
+                  </span>
+              </div>
+              <div class="meta">
+                <span class="timestamp">10 Mar</span>
+                <span class="source">from web</span>
+              </div>
+            </li>
+          
+          
+            <li class="status">
+              <img class="icon delete" src="images/icon_delete.png" alt="delete" />
+              <div class="data">
+                <span class="user"><a href="#" class="url">
+                  <img width="48" height="48" src="images/marakana.png" alt="" class="photo">
+                  <span class="nickname">Marakana</span></a></span>
+                  <span class="text">Videos/slides/code from my Android for Java Developers 
+                                      presentation at #AnDevCon are now posted at 
+                    <a href="http://mrkn.co/f/270" class="url">http://mrkn.co/f/270</a>
+                  </span>
+              </div>
+              <div class="meta">
+                <span class="timestamp">9 Mar</span>
+                <span class="source">from web</span>
+              </div>
+            </li>
+          
+            <li class="status">
+              <img class="icon delete" src="images/icon_delete.png" alt="delete" />
+              <div class="data">
+                <span class="user"><a href="#" class="url">
+                  <img width="48" height="48" src="images/jquery.png" alt="" class="photo">
+                  <span class="nickname">jQuery</span></a></span>
+                  <span class="text">jQuery Conference 2011: San Francisco Bay Area Conference Announced
+                    <a href="http://bit.ly/jqcon11SF" class="url">http://bit.ly/jqcon11SF</a>
+                  </span>
+              </div>
+              <div class="meta">
+                <span class="timestamp">8 Mar</span>
+                <span class="source">from web</span>
+              </div>
+            </li>
+          
+          </ol>
+        </div><!-- publicTimeline -->
+      </div><!-- content -->
+      
+      <!-- Footer -->
+      <div id="footer">
+        <span>Yamba is a micro blogging service brought to you by Marakana.</span>
+      </div>
+      
+    </div>
+    
+    <script src="libs/jquery-1.4.4.js"></script>
+    <script src="css_styling.js"></script>
+  </body>
+</html>

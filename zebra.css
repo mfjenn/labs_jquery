@@ -1,0 +1,35 @@
+* {
+    margin: 3;
+    padding: 3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.65;
+
+}
+
+li.line {
+  list-style-type: none;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  clear: both;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  position: relative;
+  width: 66%;
+}
+
+.zebra {
+  background-color: #EFEFEF;
+}
+
+.zebraOver {
+  background-color: #F6CECE;
+}
+
+
+

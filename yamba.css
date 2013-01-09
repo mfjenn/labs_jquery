@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	color: #000000;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.65;
+}
+
+#public {
+  background-image: url("images/bg.png");
+  background-attachment: fixed;
+  background-color: #C0DEED;
+  background-repeat: no-repeat;
+  color: #333333;
+}
+
+#wrap {
+  padding: 10px;
+	margin: 0 auto;
+	max-width: 900px;
+	min-width: 500px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#header {
+}
+
+#content {
+	background-color: #FFFFFF;
+	border-color: transparent;
+	-moz-box-shadow: 5px 7px 7px rgba(194, 194, 194, 0.3);
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-width: 0px;
+	float: left;
+	min-height: 300px;
+	padding: 2%;
+	width: 66%;
+}
+
+#content h2 {
+  color: #666666;
+  font-weight: normal;
+}
+
+#timeline {
+  clear: both;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+li.status {
+  list-style-type: none;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  clear: both;
+/*  float: left;*/
+  padding-bottom: 11px;
+  padding-top: 11px;
+  position: relative;
+  width: 100%;
+}
+
+.status .data {
+	margin-left: 59px;
+  margin-right: 7px;
+	overflow: hidden;
+  word-wrap: break-word;
+}
+
+.meta {
+	opacity: 0.4;
+	clear: left;
+/*  float: left;*/
+  font-size: 0.95em;
+  margin-left: 59px;
+  max-width: 70%;
+  min-width: 60%;
+}
+
+.user {
+	 margin-right: 11px;
+}
+
+#content .status .data .user .photo {
+	float: none;
+  left: 0;
+  position: absolute;
+  top: 11px;
+	display: inline;
+	margin-right: 11px;
+}
+
+.user .nickname {
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.user .text {
+	text-decoration: none;
+  color: #002FA7;
+}
+
+#footer {
+	float: left;
+  padding: 18px;
+  width: 64%;
+}
+
+.url {
+	text-decoration: none;
+}
+
+img {
+  border: 0 none;
+	display: block;
+}
+
+.zebra {
+  background-color: #EFEFEF;
+}
+
+.zebraOver {
+  background-color: #C0DEED;
+}
+
+/* Yamba 3 Stuff */
+
+#statusUpdate {
+  padding-bottom: 20px;
+}
+
+#newStatus {
+  -moz-border-radius: 4px 4px 4px 4px;
+  -moz-box-shadow: 0 1px #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #222222;
+  font: 14px/18px "Helvetica Neue",Arial,sans-serif;
+  height: 56px;
+  width: 100%;
+  outline: medium none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#tweetButton {
+  float:right;
+  margin: 5px;
+}
+
+.icon {
+  float: right;
+}
+
+/* Yamba 5 Stuff */
+#tweetCounter {
+  float: right;
+}
+
+.warning {
+	color: #FFFF00;
+}
+.danger {
+	color: #FF0000;
+}
+
+
+/* Yamba 6 Stuff */
+
+
+/* Yamba 7 Stuff */
+
+
+/* Yamba 8 Stuff */
+#signup label{
+	display:block;
+	float:left;
+	width:30%;
+	height:30px;
+	text-align:right;
+}
+
+#signup input{
+	display:block;
+	float:left;
+	width:30%;
+	height:30px;
+}
+
+#signup label.error{
+	float:left;
+	text-align:right;
+	height:30px;
+	width:40%;
+	background:url('images/invalid.png') left center no-repeat;
+}
+
+#signup label.valid{
+	float:left;
+	text-align:left;
+	height:30px;
+	width:40%;
+	background:url('images/valid.png') left center no-repeat;
+}
+
+/* Yamba 9 Stuff */
+/* Side navigation */
+#sidemenu {
+	width: 26%;
+	padding: 2%;
+	float: left;
+	background-color: #FFFFFF;
+	border-color: transparent;
+	-moz-box-shadow: 5px 7px 7px rgba(194, 194, 194, 0.3);
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	position: relative;
+}
+
+#sidemenu h2{
+	color: #666666;
+	font-weight: normal;	
+}
+
+#sidemenu ul {
+	list-style-type: none;
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+#sidemenu li {
+	width:100%;
+	display:block;
+}
+
+.menu_li1 > a {
+	/* Comment all for jQuery UI css ajustment */
+	background-color: #A3D1FF;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+}
+
+.menu_li1 > a:hover {
+	/* Comment for jQuery UI css ajustment */
+	background-color: #C2E0FF;
+}
+
+.menu_li2 {
+	border-bottom: 1px dotted black;
+}
+
+#sidemenu a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #333333;
+	/* Comment for jQuery UI css ajustment */
+	padding-left:2%;
+}
+
+/* Do not show dialog, jquery UI will do it */
+#dialog, #confirm{
+	display:none;
+}
+
+/* Tweet trash */
+#trash{ 
+	width:100%;
+	margin: 0;
+	padding: 0;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border: 1px dashed #333333;
+}
+
+/* Everything which is commented in Yamba 9 is for switching to jquery ui accordion
+
